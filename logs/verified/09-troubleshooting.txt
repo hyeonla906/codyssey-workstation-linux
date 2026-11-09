@@ -408,4 +408,32 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [?2004lexit
 [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
 [?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit add logs/verified/09-troubleshooting.txt logs/verified/10-git-reche[27m[7mc[27m[7mk.txt screenshots/23-git-commit.png[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git add logs/verified/09-troubleshooting.txt logs/verified/10-git-recheck.txt screenshots/23-git-commit.png
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit commit -m "Add updated logs and Git evidence"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Add updated logs and Git evidence"
+[?2004l[main e9af7bf] Add updated logs and Git evidence
+ 3 files changed, 526 insertions(+), 1 deletion(-)
+ create mode 100644 screenshots/23-git-commit.png
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit log -2 --oneline[27m
+[7mgit status[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git log -2 --oneline
+git status
+[?2004l[?1h=[33me9af7bf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add updated logs and Git evidence[m
+[33m34e24c0[m Add Linux workstation practice[m
+[K[?1l>On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   logs/verified/09-troubleshooting.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit log -1 --oneline[27mgit log -1 --oneline
+[?2004l[?1h=[33me9af7bf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add updated logs and Git evidence[m
+[K[?1l>[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mps -ef | grep '[s]cript'[27mps -ef | grep '[s]cript'
+[?2004lroot         110       1  0 Nov09 ?        00:00:00 /bin/sh /usr/lib/systemd/[01;31m[Kscript[m[Ks/chronyd-starter.sh -n -F 1
+codyssey    1565    1564  0 Nov09 pts/5    00:00:00 sh -c "$VSCODE_WSL_EXT_LOCATION/[01;31m[Kscript[m[Ks/wslServer.sh" c4453f8ea430795f941c1b2ff6c9321135a74a02 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=168618657-2660976061-2821900349-3579812668 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+codyssey    1566    1565  0 Nov09 pts/5    00:00:00 sh /mnt/c/Users/dlals/.vscode/extensions/ms-vscode-remote.remote-wsl-1.104.7/[01;31m[Kscript[m[Ks/wslServer.sh c4453f8ea430795f941c1b2ff6c9321135a74a02 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=168618657-2660976061-2821900349-3579812668 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+codyssey    1763    1752  0 Nov09 pts/10   00:00:00 /bin/bash --init-file /home/codyssey/.vscode-server/bin/c4453f8ea430795f941c1b2ff6c9321135a74a02/out/vs/workbench/contrib/terminal/common/[01;31m[Kscript[m[Ks/shellIntegration-bash.sh
+codyssey   19379    1763  0 Nov09 pts/10   00:00:00 [01;31m[Kscript[m[K -q -a -f logs/verified/09-troubleshooting.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit add logs/verified/09-troubleshooting.txt[27m
+[7mgit commit -m "Finalize troubleshooting log"[27m[Agit add logs/verified/09-troubleshooting.txt
+git commit -m "Finalize troubleshooting log"
 [?2004l
