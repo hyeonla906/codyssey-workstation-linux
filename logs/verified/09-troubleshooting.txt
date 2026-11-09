@@ -145,4 +145,267 @@ __pycache__/
 [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit add .[27m
 [7mgit status[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git add .
 git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   Dockerfile[m
+	[32mnew file:   README.md[m
+	[32mnew file:   app/index.html[m
+	[32mnew file:   logs/troubleshooting.md[m
+	[32mnew file:   logs/verified/00-setup.txt[m
+	[32mnew file:   logs/verified/01-terminal.txt[m
+	[32mnew file:   logs/verified/02-permissions-old.txt[m
+	[32mnew file:   logs/verified/02-permissions.txt[m
+	[32mnew file:   logs/verified/03-docker.txt[m
+	[32mnew file:   logs/verified/04-containers.txt[m
+	[32mnew file:   logs/verified/05-files.txt[m
+	[32mnew file:   logs/verified/06-webserver.txt[m
+	[32mnew file:   logs/verified/07-bind.txt[m
+	[32mnew file:   logs/verified/08-volume.txt[m
+	[32mnew file:   logs/verified/09-troubleshooting.txt[m
+	[32mnew file:   logs/verified/10-git-recheck.txt[m
+	[32mnew file:   practice/lesson1/hello.txt[m
+	[32mnew file:   practice/lesson1/recheck/hello.txt[m
+	[32mnew file:   practice/permissions/test.txt[m
+	[32mnew file:   screenshots/01-setup.png[m
+	[32mnew file:   screenshots/02-terminal.png[m
+	[32mnew file:   screenshots/03-permission-file.png[m
+	[32mnew file:   screenshots/03-permission-file.png:Zone.Identifier[m
+	[32mnew file:   screenshots/04-permission-folder-755.png[m
+	[32mnew file:   screenshots/04-permission-folder-755.png:Zone.Identifier[m
+	[32mnew file:   screenshots/04-permissions-summary.png[m
+	[32mnew file:   screenshots/04-permissions-summary.png:Zone.Identifier[m
+	[32mnew file:   screenshots/05-docker-server.png[m
+	[32mnew file:   screenshots/05-docker-server.png:Zone.Identifier[m
+	[32mnew file:   screenshots/06-hello-world.png[m
+	[32mnew file:   screenshots/06-hello-world.png:Zone.Identifier[m
+	[32mnew file:   screenshots/07-ubuntu.png[m
+	[32mnew file:   screenshots/07-ubuntu.png:Zone.Identifier[m
+	[32mnew file:   screenshots/08-containers.png[m
+	[32mnew file:   screenshots/08-containers.png:Zone.Identifier[m
+	[32mnew file:   screenshots/09-html-code.png[m
+	[32mnew file:   screenshots/10-dockerfile.png[m
+	[32mnew file:   screenshots/11-web-build.png[m
+	[32mnew file:   screenshots/12-browser.png[m
+	[32mnew file:   screenshots/14-bind-before.png[m
+	[32mnew file:   screenshots/15-bind-after.png[m
+	[32mnew file:   screenshots/16-volume-before.png[m
+	[32mnew file:   screenshots/17-volume-after.png[m
+	[32mnew file:   screenshots/18-error-docker-context.png[m
+	[32mnew file:   screenshots/18-error-docker-context.png:Zone.Identifier[m
+	[32mnew file:   screenshots/19-error-path.png[m
+	[32mnew file:   screenshots/19-error-path.png:Zone.Identifier[m
+	[32mnew file:   screenshots/20-git-local.png[m
+	[32mnew file:   screenshots/21-git-config.png[m
+	[32mnew file:   screenshots/22-git-default-branch.png[m
+
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mprintf '\n# Windows 파일 메타데이터\n*:Zone.Identifier\n' >> .gitignore[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cprintf '\n# Windows 파일 메타데이터\n*:Zone.Identifier\n' >> .gitignore [A
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit rm --cached -- 'screenshots/*:Zone.Identifier'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit rm --cached -- 'screenshots/*:Zone.Identifier'
+[?2004lrm 'screenshots/03-permission-file.png:Zone.Identifier'
+rm 'screenshots/04-permission-folder-755.png:Zone.Identifier'
+rm 'screenshots/04-permissions-summary.png:Zone.Identifier'
+rm 'screenshots/05-docker-server.png:Zone.Identifier'
+rm 'screenshots/06-hello-world.png:Zone.Identifier'
+rm 'screenshots/07-ubuntu.png:Zone.Identifier'
+rm 'screenshots/08-containers.png:Zone.Identifier'
+rm 'screenshots/18-error-docker-context.png:Zone.Identifier'
+rm 'screenshots/19-error-path.png:Zone.Identifier'
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit add .gitignore[27mgit add .gitignore
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   Dockerfile[m
+	[32mnew file:   README.md[m
+	[32mnew file:   app/index.html[m
+	[32mnew file:   logs/troubleshooting.md[m
+	[32mnew file:   logs/verified/00-setup.txt[m
+	[32mnew file:   logs/verified/01-terminal.txt[m
+	[32mnew file:   logs/verified/02-permissions-old.txt[m
+	[32mnew file:   logs/verified/02-permissions.txt[m
+	[32mnew file:   logs/verified/03-docker.txt[m
+	[32mnew file:   logs/verified/04-containers.txt[m
+	[32mnew file:   logs/verified/05-files.txt[m
+	[32mnew file:   logs/verified/06-webserver.txt[m
+	[32mnew file:   logs/verified/07-bind.txt[m
+	[32mnew file:   logs/verified/08-volume.txt[m
+	[32mnew file:   logs/verified/09-troubleshooting.txt[m
+	[32mnew file:   logs/verified/10-git-recheck.txt[m
+	[32mnew file:   practice/lesson1/hello.txt[m
+	[32mnew file:   practice/lesson1/recheck/hello.txt[m
+	[32mnew file:   practice/permissions/test.txt[m
+	[32mnew file:   screenshots/01-setup.png[m
+	[32mnew file:   screenshots/02-terminal.png[m
+	[32mnew file:   screenshots/03-permission-file.png[m
+	[32mnew file:   screenshots/04-permission-folder-755.png[m
+	[32mnew file:   screenshots/04-permissions-summary.png[m
+	[32mnew file:   screenshots/05-docker-server.png[m
+	[32mnew file:   screenshots/06-hello-world.png[m
+	[32mnew file:   screenshots/07-ubuntu.png[m
+	[32mnew file:   screenshots/08-containers.png[m
+	[32mnew file:   screenshots/09-html-code.png[m
+	[32mnew file:   screenshots/10-dockerfile.png[m
+	[32mnew file:   screenshots/11-web-build.png[m
+	[32mnew file:   screenshots/12-browser.png[m
+	[32mnew file:   screenshots/14-bind-before.png[m
+	[32mnew file:   screenshots/15-bind-after.png[m
+	[32mnew file:   screenshots/16-volume-before.png[m
+	[32mnew file:   screenshots/17-volume-after.png[m
+	[32mnew file:   screenshots/18-error-docker-context.png[m
+	[32mnew file:   screenshots/19-error-path.png[m
+	[32mnew file:   screenshots/20-git-local.png[m
+	[32mnew file:   screenshots/21-git-config.png[m
+	[32mnew file:   screenshots/22-git-default-branch.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   logs/verified/09-troubleshooting.txt[m
+	[31mmodified:   logs/verified/10-git-recheck.txt[m
+
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mwc -c README.md[27mwc -c README.md
+[?2004l0 README.md
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   Dockerfile[m
+	[32mnew file:   README.md[m
+	[32mnew file:   app/index.html[m
+	[32mnew file:   logs/troubleshooting.md[m
+	[32mnew file:   logs/verified/00-setup.txt[m
+	[32mnew file:   logs/verified/01-terminal.txt[m
+	[32mnew file:   logs/verified/02-permissions-old.txt[m
+	[32mnew file:   logs/verified/02-permissions.txt[m
+	[32mnew file:   logs/verified/03-docker.txt[m
+	[32mnew file:   logs/verified/04-containers.txt[m
+	[32mnew file:   logs/verified/05-files.txt[m
+	[32mnew file:   logs/verified/06-webserver.txt[m
+	[32mnew file:   logs/verified/07-bind.txt[m
+	[32mnew file:   logs/verified/08-volume.txt[m
+	[32mnew file:   logs/verified/09-troubleshooting.txt[m
+	[32mnew file:   logs/verified/10-git-recheck.txt[m
+	[32mnew file:   practice/lesson1/hello.txt[m
+	[32mnew file:   practice/lesson1/recheck/hello.txt[m
+	[32mnew file:   practice/permissions/test.txt[m
+	[32mnew file:   screenshots/01-setup.png[m
+	[32mnew file:   screenshots/02-terminal.png[m
+	[32mnew file:   screenshots/03-permission-file.png[m
+	[32mnew file:   screenshots/04-permission-folder-755.png[m
+	[32mnew file:   screenshots/04-permissions-summary.png[m
+	[32mnew file:   screenshots/05-docker-server.png[m
+	[32mnew file:   screenshots/06-hello-world.png[m
+	[32mnew file:   screenshots/07-ubuntu.png[m
+	[32mnew file:   screenshots/08-containers.png[m
+	[32mnew file:   screenshots/09-html-code.png[m
+	[32mnew file:   screenshots/10-dockerfile.png[m
+	[32mnew file:   screenshots/11-web-build.png[m
+	[32mnew file:   screenshots/12-browser.png[m
+	[32mnew file:   screenshots/14-bind-before.png[m
+	[32mnew file:   screenshots/15-bind-after.png[m
+	[32mnew file:   screenshots/16-volume-before.png[m
+	[32mnew file:   screenshots/17-volume-after.png[m
+	[32mnew file:   screenshots/18-error-docker-context.png[m
+	[32mnew file:   screenshots/19-error-path.png[m
+	[32mnew file:   screenshots/20-git-local.png[m
+	[32mnew file:   screenshots/21-git-config.png[m
+	[32mnew file:   screenshots/22-git-default-branch.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   logs/verified/09-troubleshooting.txt[m
+	[31mmodified:   logs/verified/10-git-recheck.txt[m
+
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit commit -m "Add Linux workstation practice"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Add Linux workstation practice"
+[?2004l[main (root-commit) 34e24c0] Add Linux workstation practice
+ 42 files changed, 1782 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Dockerfile
+ create mode 100644 README.md
+ create mode 100644 app/index.html
+ create mode 100644 logs/troubleshooting.md
+ create mode 100644 logs/verified/00-setup.txt
+ create mode 100644 logs/verified/01-terminal.txt
+ create mode 100644 logs/verified/02-permissions-old.txt
+ create mode 100644 logs/verified/02-permissions.txt
+ create mode 100644 logs/verified/03-docker.txt
+ create mode 100644 logs/verified/04-containers.txt
+ create mode 100644 logs/verified/05-files.txt
+ create mode 100644 logs/verified/06-webserver.txt
+ create mode 100644 logs/verified/07-bind.txt
+ create mode 100644 logs/verified/08-volume.txt
+ create mode 100644 logs/verified/09-troubleshooting.txt
+ create mode 100644 logs/verified/10-git-recheck.txt
+ create mode 100644 practice/lesson1/hello.txt
+ create mode 100644 practice/lesson1/recheck/hello.txt
+ create mode 100644 practice/permissions/test.txt
+ create mode 100644 screenshots/01-setup.png
+ create mode 100644 screenshots/02-terminal.png
+ create mode 100644 screenshots/03-permission-file.png
+ create mode 100644 screenshots/04-permission-folder-755.png
+ create mode 100644 screenshots/04-permissions-summary.png
+ create mode 100644 screenshots/05-docker-server.png
+ create mode 100644 screenshots/06-hello-world.png
+ create mode 100644 screenshots/07-ubuntu.png
+ create mode 100644 screenshots/08-containers.png
+ create mode 100644 screenshots/09-html-code.png
+ create mode 100644 screenshots/10-dockerfile.png
+ create mode 100644 screenshots/11-web-build.png
+ create mode 100644 screenshots/12-browser.png
+ create mode 100644 screenshots/14-bind-before.png
+ create mode 100644 screenshots/15-bind-after.png
+ create mode 100644 screenshots/16-volume-before.png
+ create mode 100644 screenshots/17-volume-after.png
+ create mode 100644 screenshots/18-error-docker-context.png
+ create mode 100644 screenshots/19-error-path.png
+ create mode 100644 screenshots/20-git-local.png
+ create mode 100644 screenshots/21-git-config.png
+ create mode 100644 screenshots/22-git-default-branch.png
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit log -1 --oneline[27m
+[7mgit status[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git log -1 --oneline
+git status
+[?2004l[?1h=[33m34e24c0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add Linux workstation practice[m
+[K[?1l>On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   logs/verified/09-troubleshooting.txt[m
+	[31mmodified:   logs/verified/10-git-recheck.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit commit -m "Add Linux workstation practice"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Add Linux workstation practice"
+[?2004lOn branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   logs/verified/09-troubleshooting.txt[m
+	[31mmodified:   logs/verified/10-git-recheck.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mscreenshots/23-git-commit.png[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit log -1 --oneline[27mgit log -1 --oneline
+[?2004l[?1h=[33m34e24c0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add Linux workstation practice[m
+[K[?1l>[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mps -p "$PPID" -o args=[27mps -p "$PPID" -o args=
+[?2004lscript -q -a -f logs/verified/10-git-recheck.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit add logs/verified/09-troubleshooting.txt logs/verified/10-git-reche[27m[7mc[27m[7mk.txt screenshots/23-git-commit.png[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git add logs/verified/09-troubleshooting.txt logs/verified/10-git-recheck.txt screenshots/23-git-commit.png
 [?2004l
