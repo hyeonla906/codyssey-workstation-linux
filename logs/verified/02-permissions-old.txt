@@ -1,0 +1,41 @@
+Script started on 2026-11-09 21:55:58+09:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="93" LINES="43"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd practice/permissions[27mcd practice/permissions
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mtouch test.txt[27mtouch test.txt
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mchmod 600 test.txt[27mchmod 600 test.txt
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mls -l test.txt[27mls -l test.txt
+[?2004l-rw------- 1 codyssey codyssey 0 Nov  9 21:56 test.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mchmod 644 test.txt[27mchmod 644 test.txt
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mls -l test.txt[27mls -l test.txt
+[?2004l-rw-r--r-- 1 codyssey codyssey 0 Nov  9 21:56 test.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mchmod 600 test.txt[27m
+[7mls -l test.txt[27m
+[7mchmod 644 test.txt[27m
+[7mls -l test.txt[27m[A[A[A]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ chmod 600 test.txt
+ls -l test.txt
+chmod 644 test.txt
+ls -l test.txt
+[?2004l-rw------- 1 codyssey codyssey 0 Nov  9 21:56 test.txt
+-rw-r--r-- 1 codyssey codyssey 0 Nov  9 21:56 test.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mmkdir -p testdir[27mmkdir -p testdir
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mchmod 700 testdir[27mchmod 700 testdir
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mls -ld testdir[27mls -ld testdir
+[?2004ldrwx------ 2 codyssey codyssey 4096 Nov  9 21:56 [0m[01;34mtestdir[0m
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mchmod 755 testdir[27mchmod 755 testdir
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mls -ld testdir[27mls -ld testdir
+[?2004ldrwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:56 [0m[01;34mtestdir[0m
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mchmod 700 testdir[27m
+[7mls -ld testdir[27m
+[7mchmod 755 testdir[27m
+[7mls -ld testdir[27m[A[A[A]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ chmod 700 testdir
+ls -ld testdir
+chmod 755 testdir
+ls -ld testdir
+[?2004ldrwx------ 2 codyssey codyssey 4096 Nov  9 21:56 [0m[01;34mtestdir[0m
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:56 [0m[01;34mtestdir[0m
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/permissions[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/permissions[00m$ [7mcd ../..[27mcd ../..
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mpwd[27mpwd
+[?2004l/home/codyssey/codyssey-workstation-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 21:57:34+09:00 [COMMAND_EXIT_CODE="0"]

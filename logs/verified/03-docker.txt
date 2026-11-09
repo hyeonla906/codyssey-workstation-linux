@@ -1,0 +1,39 @@
+Script started on 2026-11-09 22:32:30+09:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="117" LINES="43"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker --version[27mdocker --version
+[?2004lDocker version 29.9.2, build a82e528
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker version --format 'Client={{.Client.Version}} Server={{.Server.Versi[27m[7mo[27m[7mn}}'[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ docker version --format 'Client={{.Client.Version}} Server={{.Server.Version}}'
+[?2004lClient=29.9.2 Server=29.9.2
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker info --format 'OSType={{.OSType}} OperatingSystem={{.OperatingSyste[27m[7mm[27m[7m}}'[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ docker info --format 'OSType={{.OSType}} OperatingSystem={{.OperatingSystem}}'
+[?2004lOSType=linux OperatingSystem=Docker Desktop
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker run hello-world[27mdocker run hello-world
+[?2004lUnable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+
+[1A[2K4f55086f7dd0: Pulling fs layer [1B[1A[2K4f55086f7dd0: Downloading [==================================================>]  2.415kB/2.415kB[1B[1A[2K4f55086f7dd0: Verifying Checksum [1B[1A[2K4f55086f7dd0: Download complete [1B[1A[2K4f55086f7dd0: Extracting [==================================================>]  2.415kB/2.415kB[1B[1A[2K4f55086f7dd0: Extracting [==================================================>]  2.415kB/2.415kB[1B[1A[2K4f55086f7dd0: Pull complete [1BDigest: sha256:c567b231f65614688711a75f31518a064258a51d442117a3e771a3a8fdba78ef
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 22:35:31+09:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,80 @@
+Script started on 2026-11-09 21:46:08+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="61" LINES="43"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mmkdir -p practice/[27m[7ml[27m[7messon1[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ mkdir -p practice/lesson1
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd practice/lesson[27m[7m1[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ cd practice/lesson1
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mprintf 'Hello Codyssey\n' > hello.txt[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cprintf 'Hello Codyssey\n' > hello.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mcat hello.txt[27mcat hello.txt
+[?2004lHello Codyssey
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mcp hello.txt copy.txt[27mcp hello.txt copy.txt
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mls -l[27mls -l
+[?2004ltotal 8
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:46 copy.txt
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:46 hello.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mmv copy.txt renamed.txt[27mmv copy.txt renamed.txt
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mls -l[27mls -l
+[?2004ltotal 8
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:46 hello.txt
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:46 renamed.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mmkdir backup[27mmkdir backup
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mmv renamed.txt backup/[27mmv renamed.txt backup/
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mls -l backup/[27mls -l backup/
+[?2004ltotal 4
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:46 renamed.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mrm backup/renamed.txt[27mrm backup/renamed.txt
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mls -la backup/[27mls -la backup/
+[?2004ltotal 8
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:47 [0m[01;34m.[0m
+drwxr-xr-x 3 codyssey codyssey 4096 Nov  9 21:47 [01;34m..[0m
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux/practice/lesson1[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux/practice/lesson1[00m$ [7mcd ../..[27mcd ../..
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mpwd[27mpwd
+[?2004l/home/codyssey/codyssey-workstation-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 21:47:27+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-09 21:54:26+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="110" LINES="43"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mmkdir -p practice/lesson1/recheck[27m
+[7mcd practice/lesson1/recheck[27m
+[7mprintf 'Hello Codyssey\n' > hello.txt[27m
+[7mcat hello.txt[27m
+[7mcp hello.txt copy.txt[27m
+[7mls -l[27m
+[7mmv copy.txt renamed.txt[27m
+[7mls -l[27m
+[7mmkdir -p backup[27m
+[7mmv renamed.txt backup/[27m
+[7mls -l backup/[27m
+[7mrm backup/renamed.txt[27m
+[7mls -la backup/[27m
+[7mcd ../../..[27m
+[7mpwd[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ mkdir -p practice/lesson1/recheck
+cd practice/lesson1/recheck
+printf 'Hello Codyssey\n' > hello.txt
+cat hello.txt
+cp hello.txt copy.txt
+ls -l
+mv copy.txt renamed.txt
+ls -l
+mkdir -p backup
+mv renamed.txt backup/
+ls -l backup/
+rm backup/renamed.txt
+ls -la backup/
+cd ../../..
+pwd
+[?2004lHello Codyssey
+total 8
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:54 copy.txt
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:54 hello.txt
+total 8
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:54 hello.txt
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:54 renamed.txt
+total 4
+-rw-r--r-- 1 codyssey codyssey 15 Nov  9 21:54 renamed.txt
+total 8
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:54 [0m[01;34m.[0m
+drwxr-xr-x 3 codyssey codyssey 4096 Nov  9 21:54 [01;34m..[0m
+/home/codyssey/codyssey-workstation-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 21:54:37+09:00 [COMMAND_EXIT_CODE="0"]

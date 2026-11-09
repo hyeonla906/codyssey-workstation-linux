@@ -1,0 +1,119 @@
+Script started on 2026-11-09 22:38:55+09:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="128" LINES="43"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker pull ubuntu[27mdocker pull ubuntu
+[?2004lUsing default tag: latest
+latest: Pulling from library/ubuntu
+
+[1A[2Kedafa32f5d9e: Pulling fs layer [1B
+[1A[2Kf3f25b84a7d7: Pulling fs layer [1B[1A[2Kf3f25b84a7d7: Downloading [==================================================>]     392B/392B[1B[1A[2Kf3f25b84a7d7: Download complete [1B[2A[2Kedafa32f5d9e: Downloading [>                                                  ]  425.3kB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [===>                                               ]  2.981MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [=======>                                           ]  5.963MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [==========>                                        ]  8.519MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [=============>                                     ]  11.07MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [================>                                  ]  14.06MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [====================>                              ]  17.46MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [========================>                          ]  20.45MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [===========================>                       ]     23MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [==============================>                    ]  25.98MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [==================================>                ]  29.39MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [======================================>            ]  32.37MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [==========================================>        ]  36.21MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [=============================================>     ]  38.76MB/42.14MB[2B[2A[2Kedafa32f5d9e: Downloading [=================================================> ]  41.75MB/42.14MB[2B[2A[2Kedafa32f5d9e: Verifying Checksum [2B[2A[2Kedafa32f5d9e: Download complete [2B[2A[2Kedafa32f5d9e: Extracting [>                                                  ]    426kB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [==>                                                ]   2.13MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [====>                                              ]  3.834MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [======>                                            ]  5.538MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [========>                                          ]  7.242MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [==========>                                        ]   8.52MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [===========>                                       ]  9.798MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [=============>                                     ]  11.08MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [===============>                                   ]  12.78MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [=================>                                 ]  14.48MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [===================>                               ]  16.19MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [====================>                              ]  17.47MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [=====================>                             ]  18.32MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [======================>                            ]  18.74MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [=======================>                           ]   19.6MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [========================>                          ]  20.87MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [==========================>                        ]  22.58MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [============================>                      ]  24.28MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [==============================>                    ]  25.99MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [==================================>                ]  28.97MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [====================================>              ]   31.1MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [======================================>            ]   32.8MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [========================================>          ]   34.5MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [==========================================>        ]  35.78MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [===========================================>       ]  36.63MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [============================================>      ]  37.91MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [==============================================>    ]  39.19MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [===============================================>   ]  39.62MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [===============================================>   ]  40.04MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [================================================>  ]  40.47MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [================================================>  ]  40.89MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [=================================================> ]  41.75MB/42.14MB[2B[2A[2Kedafa32f5d9e: Extracting [==================================================>]  42.14MB/42.14MB[2B[2A[2Kedafa32f5d9e: Pull complete [2B[1A[2Kf3f25b84a7d7: Extracting [==================================================>]     392B/392B[1B[1A[2Kf3f25b84a7d7: Extracting [==================================================>]     392B/392B[1B[1A[2Kf3f25b84a7d7: Pull complete [1BDigest: sha256:6a06111c3b0a8600feadb270aec771dc239bf407b25625f93f44ab00e11f4d3c
+Status: Downloaded newer image for ubuntu:latest
+docker.io/library/ubuntu:latest
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker run -it --name codyssey-linux-ubuntu-practice ubuntu bash[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run -it --name codyssey-linux-ubuntu-practice ubuntu bash
+[?2004l[?2004h]0;root@8c54866e795f: /root@8c54866e795f:/# [7mwhoami[27mwhoami
+[?2004lroot
+[?2004h]0;root@8c54866e795f: /root@8c54866e795f:/# [7mpwd[27mpwd
+[?2004l/
+[?2004h]0;root@8c54866e795f: /root@8c54866e795f:/# [7mls -la[27mls -la
+[?2004ltotal 60
+drwxr-xr-x   1 root root 4096 Nov  9 13:39 [0m[01;34m.[0m
+drwxr-xr-x   1 root root 4096 Nov  9 13:39 [01;34m..[0m
+-rwxr-xr-x   1 root root    0 Nov  9 13:39 [01;32m.dockerenv[0m
+drwxr-xr-x   2 root root 4096 Oct 25 10:26 [01;34m.rock[0m
+lrwxrwxrwx   1 root root    7 Apr 20  2026 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root 4096 Apr 20  2026 [01;34mboot[0m
+drwxr-xr-x   5 root root  360 Nov  9 13:39 [01;34mdev[0m
+drwxr-xr-x   1 root root 4096 Nov  9 13:39 [01;34metc[0m
+drwxr-xr-x   3 root root 4096 Oct 25 10:26 [01;34mhome[0m
+lrwxrwxrwx   1 root root    7 Apr 20  2026 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root    9 Apr 20  2026 [01;36mlib64[0m -> [01;34musr/lib64[0m
+drwxr-xr-x   2 root root 4096 Oct 25 10:25 [01;34mmedia[0m
+drwxr-xr-x   2 root root 4096 Oct 25 10:25 [01;34mmnt[0m
+drwxr-xr-x   2 root root 4096 Oct 25 10:25 [01;34mopt[0m
+dr-xr-xr-x 302 root root    0 Nov  9 13:39 [01;34mproc[0m
+drwx------   2 root root 4096 Oct 25 10:26 [01;34mroot[0m
+drwxr-xr-x   4 root root 4096 Oct 25 10:26 [01;34mrun[0m
+lrwxrwxrwx   1 root root    8 Apr 20  2026 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x   2 root root 4096 Oct 25 10:25 [01;34msrv[0m
+dr-xr-xr-x  12 root root    0 Nov  9 13:39 [01;34msys[0m
+drwxrwxrwt   2 root root 4096 Oct 25 10:25 [30;42mtmp[0m
+drwxr-xr-x  12 root root 4096 Oct 25 10:24 [01;34musr[0m
+drwxr-xr-x  11 root root 4096 Oct 25 10:26 [01;34mvar[0m
+[?2004h]0;root@8c54866e795f: /root@8c54866e795f:/# [7mcat /etc/os-release[27mcat /etc/os-release
+[?2004lPRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+[?2004h]0;root@8c54866e795f: /root@8c54866e795f:/# [K]0;root@8c54866e795f: /root@8c54866e795f:/# [7mdocker images ubuntu[27mdocker images ubuntu
+[?2004lbash: docker: command not found
+[?2004h]0;root@8c54866e795f: /root@8c54866e795f:/# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@8c54866e795f: /root@8c54866e795f:/# [7mexit[27mexit
+[?2004lexit
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker images ubuntu[27m
+[7mdocker ps -a[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ docker images ubuntu
+docker ps -a
+[?2004l                                                                                                            [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m           [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mubuntu:latest[0m   [39mfebc1a2eec1f[0m        [39m102MB[0m             [39m0B[0m   [38;5;0m[48;5;14m U [0m  
+CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                       PORTS     NAMES
+8c54866e795f   ubuntu        "bash"     4 minutes ago    Exited (130) 8 seconds ago             codyssey-linux-ubuntu-practice
+0b1818321697   hello-world   "/hello"   10 minutes ago   Exited (0) 10 minutes ago              nice_feynman
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker images ubuntu[27mdocker images ubuntu
+[?2004l                                                                                                            [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m           [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mubuntu:latest[0m   [39mfebc1a2eec1f[0m        [39m102MB[0m             [39m0B[0m   [38;5;0m[48;5;14m U [0m  
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps -a[27mdocker ps -a
+[?2004lCONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                       PORTS     NAMES
+8c54866e795f   ubuntu        "bash"     9 minutes ago    Exited (130) 4 minutes ago             codyssey-linux-ubuntu-practice
+0b1818321697   hello-world   "/hello"   14 minutes ago   Exited (0) 14 minutes ago              nice_feynman
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps -a --filter 'name=codyssey-linux-ubuntu-running'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a --filter 'name=codyssey-linux-ubuntu-running'
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker run -d --name codyssey-linux-ubuntu-running ubuntu sleep infinity[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run -d --name codyssey-linux-ubuntu-running ubuntu sleep infinity
+[?2004l9d2c473448bfd5fc1594237b0777416f544cd8ece205018152d0c47ca7ac295a
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps[27mdocker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND            CREATED         STATUS         PORTS     NAMES
+9d2c473448bf   ubuntu    "sleep infinity"   6 seconds ago   Up 5 seconds             codyssey-linux-ubuntu-running
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker exec codyssey-linux-ubuntu-running echo Hello-from-exec[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec codyssey-linux-ubuntu-running echo Hello-from-exec
+[?2004lHello-from-exec
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker stop codyssey-linux-ubuntu-running[27mdocker stop codyssey-linux-ubuntu-running
+[?2004lcodyssey-linux-ubuntu-running
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps -a --filter 'name=codyssey-linux-ubuntu-running'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a --filter 'name=codyssey-linux-ubuntu-running'
+[?2004lCONTAINER ID   IMAGE     COMMAND            CREATED          STATUS                      PORTS     NAMES
+9d2c473448bf   ubuntu    "sleep infinity"   27 seconds ago   Exited (137) 1 second ago             codyssey-linux-ubuntu-running
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker start codyssey-linux-ubuntu-running[27mdocker start codyssey-linux-ubuntu-running
+[?2004lcodyssey-linux-ubuntu-running
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps[27mdocker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND            CREATED          STATUS         PORTS     NAMES
+9d2c473448bf   ubuntu    "sleep infinity"   38 seconds ago   Up 5 seconds             codyssey-linux-ubuntu-running
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker logs codyssey-linux-ubuntu-running[27mdocker logs codyssey-linux-ubuntu-running
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker stats --no-stream codyssey-linux-ubuntu-running[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker stats --no-stream codyssey-linux-ubuntu-running
+[?2004lCONTAINER ID   NAME                            CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O   PIDS
+9d2c473448bf   codyssey-linux-ubuntu-running   0.00%     2.527MiB / 11.68GiB   0.02%     1.17kB / 126B   0B / 0B     1
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker images ubuntu[27mdocker images ubuntu
+[?2004l                                                                                                            [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m           [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mubuntu:latest[0m   [39mfebc1a2eec1f[0m        [39m102MB[0m             [39m0B[0m   [38;5;0m[48;5;14m U [0m  
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps -a --filter 'name=codyssey-linux-ubuntu'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a --filter 'name=codyssey-linux-ubuntu'
+[?2004lCONTAINER ID   IMAGE     COMMAND            CREATED              STATUS                       PORTS     NAMES
+9d2c473448bf   ubuntu    "sleep infinity"   About a minute ago   Up 38 seconds                          codyssey-linux-ubuntu-running
+8c54866e795f   ubuntu    "bash"             10 minutes ago       Exited (130) 5 minutes ago             codyssey-linux-ubuntu-practice
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mclear[27mclear
+[?2004l[H[2J[3J[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker images ubuntu[27mdocker images ubuntu
+[?2004l                                                                                                            [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m           [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mubuntu:latest[0m   [39mfebc1a2eec1f[0m        [39m102MB[0m             [39m0B[0m   [38;5;0m[48;5;14m U [0m  
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps -a --filter 'name=codyssey-linux-ubuntu'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a --filter 'name=codyssey-linux-ubuntu'
+[?2004lCONTAINER ID   IMAGE     COMMAND            CREATED              STATUS                       PORTS     NAMES
+9d2c473448bf   ubuntu    "sleep infinity"   About a minute ago   Up About a minute                      codyssey-linux-ubuntu-running
+8c54866e795f   ubuntu    "bash"             11 minutes ago       Exited (130) 6 minutes ago             codyssey-linux-ubuntu-practice
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 22:51:11+09:00 [COMMAND_EXIT_CODE="0"]

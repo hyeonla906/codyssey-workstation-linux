@@ -1,0 +1,102 @@
+Script started on 2026-11-09 23:20:12+09:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="114" LINES="13"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mscript -q -a -f logs/verified/07-bind.txt[27mscript -q -a -f logs/verified/07-bind.txt
+[?2004lScript started on 2026-11-09 23:21:13+09:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="114" LINES="13"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps --format '{{.Names}} {{.Ports}}'[27m[7mdocker ps --format '{{.Names}} {{.Ports}}'[27mdocker ps --format '{{.Names}} {{.Ports}}'
+[?2004ldocker ps --format '{{.Names}} {{.Ports}}'
+[?2004lcodyssey-linux-web 0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+codyssey-linux-ubuntu-running 
+codyssey-linux-web 0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+codyssey-linux-ubuntu-running 
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps -a --filter 'name=^/codyssey-linux-bind$'[27m[7mdocker ps -a --filter 'name=^/codyssey-linux-bind$'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a --filter 'name=^/codyssey-linux-bind$'
+[?2004l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a --filter 'name=^/codyssey-linux-bind$'
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker run -d --name codyssey-linux-bind -p 8081:80 --mount "type=bind,[27m[7ms[27m[7mource=$(pwd)/app,target=/usr/share/nginx/html,readonly" codyssey-linux-web:v2[27m[7mdocker run -d --name codyssey-linux-bind -p 8081:80 --mount "type=bind,[27m[7ms[27m[7mource=$(pwd)/app,target=/usr/share/nginx/html,readonly" codyssey-linux-web:v2[27m[Adocker run -d --name codyssey-linux-bind -p 8081:80 --mount "type=bind,source=$(pwd)/app,target=/usr/share/nginx/html,readonly" codyssey-linux-web:v2
+[?2004l[Adocker run -d --name codyssey-linux-bind -p 8081:80 --mount "type=bind,source=$(pwd)/app,target=/usr/share/nginx/html,readonly" codyssey-linux-web:v2
+[?2004l497dcd7b163e86b41b230841c666ede9b6eb95db9891a17027c23bb575cb9fff
+497dcd7b163e86b41b230841c666ede9b6eb95db9891a17027c23bb575cb9fff
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps --filter 'name=^/codyssey-linux-bind$'[27m[7mdocker ps --filter 'name=^/codyssey-linux-bind$'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps --filter 'name=^/codyssey-linux-bind$'
+[?2004l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps --filter 'name=^/codyssey-linux-bind$'
+[?2004lCONTAINER ID   IMAGE                   COMMAND                  CREATED         STATUS         PORTS                                     NAMES
+497dcd7b163e   codyssey-linux-web:v2   "/docker-entrypoint.…"   7 seconds ago   Up 6 seconds   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   codyssey-linux-bind
+CONTAINER ID   IMAGE                   COMMAND                  CREATED         STATUS         PORTS                                     NAMES
+497dcd7b163e   codyssey-linux-web:v2   "/docker-entrypoint.…"   7 seconds ago   Up 6 seconds   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   codyssey-linux-bind
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcurl http://localhost:8081[27m[7mcurl http://localhost:8081[27mcurl http://localhost:8081
+[?2004lcurl http://localhost:8081
+[?2004l
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코디세이 리눅스 실습</title>
+</head>
+<body>
+    <h1>나의 첫 번째 Docker 웹페이지</h1>
+    <p>내가 처음 만든 웹 서버입니다!</p>
+  
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코디세이 리눅스 실습</title>
+</head>
+<body>
+    <h1>나의 첫 번째 Docker 웹페이지</h1>
+    <p>내가 처음 만든 웹 서버입니다!</p>
+  
+</body>
+</html>
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcurl http://localhost:8081[27m[7mcurl http://localhost:8081[27mcurl http://localhost:8081
+[?2004lcurl http://localhost:8081
+[?2004l
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>바인드 마운트 </title>
+</head>
+<body>
+    <h1>화이팅!</h1>
+    <p>입니다!</p>
+  
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>바인드 마운트 </title>
+</head>
+<body>
+    <h1>화이팅!</h1>
+    <p>입니다!</p>
+  
+</body>
+</html>
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker inspect codyssey-linux-bind --format '{{range .Mounts}}{{.Type}}[27m[7m [27m[7m{{.Source}} -> {{.Destination}} RW={{.RW}}{{end}}'[27m[7mdocker inspect codyssey-linux-bind --format '{{range .Mounts}}{{.Type}}[27m[7m [27m[7m{{.Source}} -> {{.Destination}} RW={{.RW}}{{end}}'[27m[Adocker inspect codyssey-linux-bind --format '{{range .Mounts}}{{.Type}} {{.Source}} -> {{.Destination}} RW={{.RW}}{{end}}'
+[?2004l[Adocker inspect codyssey-linux-bind --format '{{range .Mounts}}{{.Type}} {{.Source}} -> {{.Destination}} RW={{.RW}}{{end}}'
+[?2004lbind /home/codyssey/codyssey-workstation-linux/app -> /usr/share/nginx/html RW=false
+bind /home/codyssey/codyssey-workstation-linux/app -> /usr/share/nginx/html RW=false
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27m[7mexit[27mexit
+[?2004lexit
+exit
+[?2004lexit
+
+Script done on 2026-11-09 23:23:51+09:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mls -lh logs/verified/07-bind.txt[27mls -lh logs/verified/07-bind.txt
+[?2004l-rw-r--r-- 1 codyssey codyssey 8.1K Nov  9 23:23 logs/verified/07-bind.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ clea
+[?2004lCommand 'clea' not found, did you mean:
+  command 'clear' from deb ncurses-bin (6.6+20251231-1)
+Try: sudo apt install <deb name>
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mps -p "$PPID" -o args=[27mps -p "$PPID" -o args=
+[?2004lscript -q -a -f logs/verified/07-bind.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 23:28:55+09:00 [COMMAND_EXIT_CODE="0"]

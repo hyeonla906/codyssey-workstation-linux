@@ -1,0 +1,14 @@
+
+# 비밀 정보
+.env
+.env.*
+!.env.example
+
+# 임시 파일
+__pycache__/
+.venv/
+.vscode/
+*.swp
+
+# Windows 파일 메타데이터
+*:Zone.Identifier

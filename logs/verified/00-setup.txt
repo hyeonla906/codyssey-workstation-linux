@@ -1,0 +1,104 @@
+Script started on 2026-11-09 21:36:07+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="61" LINES="20"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ scrit -q[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kwhoami
+[?2004lcodyssey
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ pwd
+[?2004l/home/codyssey/codyssey-workstation-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ uname -s
+[?2004lLinux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ car /etc/os-releas e
+[?2004lCommand 'car' not found, did you mean:
+  command 'ar' from deb binutils (2.46-3ubuntu2)
+  command 'tar' from deb tar (1.35+dfsg-4ubuntu0.2)
+  command 'cat' from deb coreutils-from-gnu (0.0.0~ubuntu25)
+  command 'cat' from deb coreutils-from-uutils (0.0.0~ubuntu25)
+  command 'jar' from deb default-jdk (2:1.25-77)
+  command 'jar' from deb openjdk-25-jdk-headless (25.0.3+9-2~26.04.2)
+  command 'ctr' from deb containerd (2.2.2-0ubuntu1.1)
+  command 'ctr' from deb containerd-stable (2.2.2-0ubuntu1.1)
+  command 'sar' from deb sysstat (12.7.7-0ubuntu2)
+Try: sudo apt install <deb name>
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ ls -la
+[?2004ltotal 24
+drwxr-xr-x 6 codyssey codyssey 4096 Nov  9 21:35 [0m[01;34m.[0m
+drwxr-x--- 8 codyssey codyssey 4096 Nov  9 21:33 [01;34m..[0m
+-rw-r--r-- 1 codyssey codyssey    0 Nov  9 21:35 README.md
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:35 [01;34mapp[0m
+drwxr-xr-x 3 codyssey codyssey 4096 Nov  9 21:35 [01;34mlogs[0m
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:35 [01;34mpractice[0m
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:35 [01;34mscreenshots[0m
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 21:37:15+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-09 21:44:15+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="188" LINES="49"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mwhoami[27mwhoami
+[?2004lcodyssey
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mpwd[27mpwd
+[?2004l/home/codyssey/codyssey-workstation-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7muname -s[27muname -s
+[?2004lLinux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcat /etc/os-release[27mcat /etc/os-release
+[?2004lPRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mls -la[27mls -la
+[?2004ltotal 24
+drwxr-xr-x 6 codyssey codyssey 4096 Nov  9 21:35 [0m[01;34m.[0m
+drwxr-x--- 8 codyssey codyssey 4096 Nov  9 21:33 [01;34m..[0m
+-rw-r--r-- 1 codyssey codyssey    0 Nov  9 21:43 README.md
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:35 [01;34mapp[0m
+drwxr-xr-x 3 codyssey codyssey 4096 Nov  9 21:35 [01;34mlogs[0m
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:35 [01;34mpractice[0m
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:35 [01;34mscreenshots[0m
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 21:44:44+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-09 21:54:10+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="110" LINES="43"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mwhoami[27m
+[7mpwd[27m
+[7muname -s[27m
+[7mcat /etc/os-release[27m
+[7mls -la[27m[A[A[A[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ whoami
+pwd
+uname -s
+cat /etc/os-release
+ls -la
+[?2004lcodyssey
+/home/codyssey/codyssey-workstation-linux
+Linux
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+total 24
+drwxr-xr-x 6 codyssey codyssey 4096 Nov  9 21:35 [0m[01;34m.[0m
+drwxr-x--- 8 codyssey codyssey 4096 Nov  9 21:33 [01;34m..[0m
+-rw-r--r-- 1 codyssey codyssey    0 Nov  9 21:43 README.md
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:35 [01;34mapp[0m
+drwxr-xr-x 3 codyssey codyssey 4096 Nov  9 21:35 [01;34mlogs[0m
+drwxr-xr-x 3 codyssey codyssey 4096 Nov  9 21:46 [01;34mpractice[0m
+drwxr-xr-x 2 codyssey codyssey 4096 Nov  9 21:53 [01;34mscreenshots[0m
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 21:54:21+09:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,42 @@
+Script started on 2026-11-09 23:29:20+09:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="114" LINES="13"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker volume create codyssey-data-linux[27mdocker volume create codyssey-data-linux
+[?2004lcodyssey-data-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker run -d --name volume-first-linux --mount type=volume,source=cody[27m[7ms[27m[7msey-data-linux,target=/data ubuntu sleep infinity[27m[Adocker run -d --name volume-first-linux --mount type=volume,source=codyssey-data-linux,target=/data ubuntu sleep infinity
+[?2004l13a1143b5ccd8faa356d29bebda5ce1cf20dc03925b3310673a9a4fed19482ea
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker exec volume-first-linux sh -c 'echo SAVE-OK > /data/check.txt'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec volume-first-linux sh -c 'echo SAVE-OK > /data/check.txt'
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker exec volume-first-linux cat /data/check.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec volume-first-linux cat /data/check.txt
+[?2004lSAVE-OK
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mclear[27mclear
+[?2004l[H[2J[3J[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker exec volume-first-linux cat /data/check.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec volume-first-linux cat /data/check.txt
+[?2004lSAVE-OK
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps --filter 'name=^/volume-first-linux$'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps --filter 'name=^/volume-first-linux$'
+[?2004lCONTAINER ID   IMAGE     COMMAND            CREATED          STATUS          PORTS     NAMES
+13a1143b5ccd   ubuntu    "sleep infinity"   37 seconds ago   Up 36 seconds             volume-first-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker volume ls --filter 'name=codyssey-data-linux'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker volume ls --filter 'name=codyssey-data-linux'
+[?2004lDRIVER    VOLUME NAME
+local     codyssey-data-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mclear[27mclear
+[?2004l[H[2J[3J[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker stop volume-first-linux[27mdocker stop volume-first-linux
+[?2004lvolume-first-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker rm volume-first-linux[27mdocker rm volume-first-linux
+[?2004lvolume-first-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker run --rm --mount type=volume,source=codyssey-data-linux,target=/[27m[7md[27m[7mata ubuntu cat /data/check.txt[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ docker run --rm --mount type=volume,source=codyssey-data-linux,target=/data ubuntu cat /data/check.txt
+[?2004lSAVE-OK
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps -a --filter 'name=^/volume-first-linux$'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a --filter 'name=^/volume-first-linux$'
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker volume inspect codyssey-data-linux[27mdocker volume inspect codyssey-data-linux
+[?2004l[
+    {
+        "CreatedAt": "2026-11-09T14:29:25Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/codyssey-data-linux/_data",
+        "Name": "codyssey-data-linux",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-09 23:32:31+09:00 [COMMAND_EXIT_CODE="0"]

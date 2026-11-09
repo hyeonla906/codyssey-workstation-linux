@@ -1,0 +1,148 @@
+Script started on 2026-11-09 23:36:41+09:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="114" LINES="13"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps -a --filter 'name=^/codyssey-linux-web$' --format '{{.Names}}[27m[7m'[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ docker ps -a --filter 'name=^/codyssey-linux-web$' --format '{{.Names}}'
+[?2004lcodyssey-linux-web
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker inspect --format '{{.Name}} {{.State.Status}}' codyssey-linux-we[27m[7me[27m[7mb[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ docker inspect --format '{{.Name}} {{.State.Status}}' codyssey-linux-weeb
+[?2004l
+error: no such object: codyssey-linux-weeb
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker inspect --format '{{.Name}} {{.State.Status}}' codyssey-linux-we[27m[7mb[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ docker inspect --format '{{.Name}} {{.State.Status}}' codyssey-linux-web
+[?2004l/codyssey-linux-web running
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcat app/indx.html[27mcat app/indx.html
+[?2004lcat: app/indx.html: No such file or directory
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mls app[27mls app
+[?2004lindex.html
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcat app/index.html[27mcat app/index.html
+[?2004l
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>바인드 마운트 </title>
+</head>
+<body>
+    <h1>화이팅!</h1>
+    <p>입니다!</p>
+  
+</body>
+</html>
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker ps --filter 'name=^/codyssey-linux-ubuntu-running$'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps --filter 'name=^/codyssey-linux-ubuntu-running$'
+[?2004lCONTAINER ID   IMAGE     COMMAND            CREATED          STATUS          PORTS     NAMES
+9d2c473448bf   ubuntu    "sleep infinity"   52 minutes ago   Up 51 minutes             codyssey-linux-ubuntu-running
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker exec -it codyssey-linux-ubuntu-running bash[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it codyssey-linux-ubuntu-running bash
+[?2004l[?2004h]0;root@9d2c473448bf: /root@9d2c473448bf:/# [7mdocker images ubuntu[27mdocker images ubuntu
+[?2004lbash: docker: command not found
+[?2004h]0;root@9d2c473448bf: /root@9d2c473448bf:/# [7mexit[27mexit
+[?2004lexit
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mdocker images ubuntu[27mdocker images ubuntu
+[?2004l                                                                                              [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m           [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mubuntu:latest[0m   [39mfebc1a2eec1f[0m        [39m102MB[0m             [39m0B[0m   [38;5;0m[48;5;14m U [0m  
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mscript -q -a -f logs/verified/09-troubleshooting.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -q -a -f logs/verified/09-troubleshooting.txt
+[?2004lScript started on 2026-11-09 23:42:16+09:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="114" LINES="25"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27m[7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+cd ~/codyssey-workstation-linux
+[?2004l[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mls -lh logs/troubleshooting.md logs/verified/09-troubleshooting.txt[27m[7mls -lh logs/troubleshooting.md logs/verified/09-troubleshooting.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -lh logs/troubleshooting.md logs/verified/09-troubleshooting.txt
+[?2004l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -lh logs/troubleshooting.md logs/verified/09-troubleshooting.txt
+[?2004l-rw-r--r-- 1 codyssey codyssey 1.2K Nov  9 23:46 logs/troubleshooting.md
+-rw-r--r-- 1 codyssey codyssey 7.0K Nov  9 23:47 logs/verified/09-troubleshooting.txt
+-rw-r--r-- 1 codyssey codyssey 1.2K Nov  9 23:46 logs/troubleshooting.md
+-rw-r--r-- 1 codyssey codyssey 7.0K Nov  9 23:47 logs/verified/09-troubleshooting.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mls -lh screenshots/18-error-docker-context.png screenshots/19-error-pat[27m[7mh[27m[7m.png[27m[7mls -lh screenshots/18-error-docker-context.png screenshots/19-error-pat[27m[7mh[27m[7m.png[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ ls -lh screenshots/18-error-docker-context.png screenshots/19-error-path.png
+[?2004l[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ ls -lh screenshots/18-error-docker-context.png screenshots/19-error-path.png
+[?2004lls: cannot access 'screenshots/18-error-docker-context.png': No such file or directory
+ls: cannot access 'screenshots/19-error-path.png': No such file or directory
+ls: cannot access 'screenshots/18-error-docker-context.png': No such file or directory
+ls: cannot access 'screenshots/19-error-path.png': No such file or directory
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mps -p "$PPID" -o args=[27m[7mps -p "$PPID" -o args=[27mps -p "$PPID" -o args=
+[?2004lps -p "$PPID" -o args=
+[?2004lscript -q -a -f logs/verified/09-troubleshooting.txt
+script -q -a -f logs/verified/09-troubleshooting.txt
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mexit[27m[7mexit[27mexit
+[?2004lexit
+[?2004lexit
+exit
+
+Script done on 2026-11-09 23:50:38+09:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mpwd[27mpwd
+[?2004l/home/codyssey/codyssey-workstation-linux
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mscript -q -a -f logs/verified/10-git-recheck.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -q -a -f logs/verified/10-git-recheck.txt
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit --version[27mgit --version
+[?2004lgit version 2.53.0
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit status[27mgit status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit init -b main[27mgit init -b main
+[?2004lInitialized empty Git repository in /home/codyssey/codyssey-workstation-linux/.git/
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mDockerfile[m
+	[31mREADME.md[m
+	[31mapp/[m
+	[31mlogs/[m
+	[31mpractice/[m
+	[31mscreenshots/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit branch --show-current[27mgit branch --show-current
+[?2004lmain
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit remote -v[27mgit remote -v
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --get user.name[27m
+[7mgit config --get user.email[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git config --get user.name
+git config --get user.email
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --local user.name "hyeonla906"[27mgit config --local user.name "hyeonla906"
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mhyeonla906 git config --local user.email "hyeonla906@gmail.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chyeonla906 git config --local user.email "hyeonla906@gmail.com"
+[?2004lhyeonla906: command not found
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mhyeonla906 git config --local user.email "hyeonla906@gmail.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phyeonla906 git config --local user.email "hyeonla906@gmail.com[K[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1Pe[K[7mgit config --local user.email "hyeonla906@gmail.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --local user.email "hyeonla906@gmail.com"
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --global init.defaultBranch main[27m
+[7mgit config --get init.defaultBranch[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git config --global init.defaultBranch main
+git config --get init.defaultBranch
+[?2004lmain
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --local user.name "hyeonla906"[27mgit config --local user.name "hyeonla906"
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --local user.email "hyeonla906@gmail.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --local user.email "hyeonla906@gmail.com"
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --global init.defaultBranch main[27mgit config --global init.defaultBranch main
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --get init.defaultBranch[27mgit config --get init.defaultBranch
+[?2004lmain
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --get user.name[27mgit config --get user.name
+[?2004lhyeonla906
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --get user.email[27mgit config --get user.email
+[?2004lhyeonla906@gmail.com
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --local user.name "hyeonla906"[27mgit config --local user.name "hyeonla906"
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --local user.email "hyeonla906@gmail.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --local user.email "hyeonla906@gmail.com"
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --get user.name[27mgit config --get user.name
+[?2004lhyeonla906
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --get user.email >/dev/null && echo "Git 이메일 설정 확인 완[27m[7m료[27m[7m"[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git config --get user.email >/dev/null && echo "Git 이메일 설정 확인 완료"
+[?2004lGit 이메일 설정 확인 완료
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [K]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --global init.defaultBranch main[27mgit config --global init.defaultBranch main
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit config --get init.defaultBranch[27mgit config --get init.defaultBranch
+[?2004lmain
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit branch --show-current[27mgit branch --show-current
+[?2004lmain
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mls -la .gitignore[27mls -la .gitignore
+[?2004lls: cannot access '.gitignore': No such file or directory
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcd ~/codyssey-workstation-linux[27mcd ~/codyssey-workstation-linux
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mtouch .gitignore[27mtouch .gitignore
+[?2004l[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mls -l .gitignore[27mls -l .gitignore
+[?2004l-rw-r--r-- 1 codyssey codyssey 95 Nov 10 00:15 .gitignore
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mcat .gitignore[27mcat .gitignore
+[?2004l
+# 비밀 정보
+.env
+.env.*
+!.env.example
+
+# 임시 파일
+__pycache__/
+.venv/
+.vscode/
+*.swp
+[?2004h]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ [7mgit add .[27m
+[7mgit status[27m[A]0;codyssey@MIN: ~/codyssey-workstation-linux[01;32mcodyssey@MIN[00m:[01;34m~/codyssey-workstation-linux[00m$ git add .
+git status
+[?2004l
